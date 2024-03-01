@@ -1,0 +1,184 @@
+.containerlog{
+    padding: 1% 4% ;
+    max-width: 100%;
+}
+.login-title {
+    margin-top: 0;
+    padding: 2rem 5% 4rem;
+}
+
+.login-title h1 {
+    font-size: 40px;
+    margin: 4.23333rem 0 1.75rem 0;
+    word-wrap: break-word;
+    text-align: center;
+    letter-spacing: .25px;
+    color: #153a5b;
+    font-weight: 700;
+}
+
+.login-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+.log-cont-inn {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.log-cont-left {
+    padding: 12px;
+    max-width: 50%;
+    flex-basis: 50%;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.log-cont-left label {
+    font-size: 1rem;
+    color: #5a5e60;
+    letter-spacing: .75px;
+    line-height: 1.5;
+}
+
+.log-cont-left form input {
+    border-radius: 0px;
+    line-height: 2;
+}
+
+.log-btn {
+    gap: 2em;
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    max-width: 80rem;
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+.log-btn button {
+    cursor: pointer;
+    border: 2px solid transparent;
+    padding: 0.7rem 4rem;
+    position: relative;
+    font-size: 1rem;
+    text-align: center;
+    transition: border-color .1s ease-out;
+    line-height: 1rem;
+    font-family: Value Bold;
+    font-weight: bold;
+    border-radius: 0;
+    letter-spacing: .75px;
+    transition-delay: 0ms;
+    transition-duration: 300ms;
+    transition-property: border-color, color, background-color, text-decoration-color;
+    transition-timing-function: ease-in-out;
+    color: #ffffff;
+    border: 2px solid #153a5b;
+    background-color: #153a5b;
+    display: inline-block;
+    margin-bottom: 1rem;
+    width: auto;
+    vertical-align: top;
+    text-decoration: none;
+}
+
+.log-btn button:hover {
+    color: #153a5b;
+    border-color: #153a5b;
+    background-color: #ffffff;
+}
+
+.log-btn a {
+    margin: 0 0 0 0.73333rem;
+    width: auto;
+    vertical-align: top;
+    color: #6f7477;
+    text-decoration: underline;
+    display: inline-block;
+    background: transparent;
+    cursor: pointer;
+    text-align: center;
+    letter-spacing: .75px;
+}
+
+.log-cont-right {
+    padding: 0px;
+    flex-grow: 0;
+    max-width: 50%;
+    flex-basis: 50%;
+}
+
+.log-cont-right-inn {
+
+    position: relative;
+    background-color: #f2f2f2;
+}
+
+.log-cont-right-tit {
+    margin: 0;
+    padding: 1.5rem 2.03333rem 0;
+}
+
+.log-cont-right-tit h2 {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.0;
+    color: #153a5b;
+    font-weight: 700;
+    letter-spacing: 0.25px;
+    margin-block-start: 0.83em;
+}
+
+.log-righ-cont {
+    margin: 0 0 1.5rem 0;
+    padding: 2rem 2.03333rem .5rem;
+    text-align: center;
+}
+
+.log-righ-cont p {
+    padding: 0;
+    line-height: 1.6;
+    margin: 0;
+    text-align: left;
+    display: block;
+    letter-spacing: .75px;
+    color: #5a5e60;
+}
+
+.log-righ-cont ul {
+    color: #5a5e60;
+    text-align: left;
+    margin-left: 3rem;
+    padding: 0;
+    list-style-position: outside;
+}
+@media screen and (max-width:1180px) {
+    .login-title h1{
+        font-size: 31px;
+        margin: 4.23333rem 0rem 0;
+    }
+    .log-cont-inn{
+        width: 100%;
+        display: inline-block;
+    }
+    .log-cont-left {
+        max-width: 100%;
+    }
+    .log-btn{
+        gap: 1em;
+        display: grid;
+    }
+    .log-cont-left .log-btn{
+        margin-top: 35px;
+    }
+    .log-cont-right{
+        margin-top: 35px;
+        max-width: 100%;
+    }
+}

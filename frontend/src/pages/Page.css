@@ -1,0 +1,420 @@
+.container-fluid {
+    margin-top: 5%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-image: url("../assets/images/backGround.png");
+    background-size: cover;
+    overflow: hidden;
+}
+
+.container-page {
+    width: 90%;
+    height: 90%;
+    background-color: transparent;
+
+}
+
+.wrapper {
+    display: flex;
+    grid-template-columns: auto;
+    height: 95%;
+
+}
+
+.container-fluid::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(21, 58, 91, 0) 0%, rgba(21, 58, 91, 0) 33.33%, rgba(21, 58, 91, 0.1) 66.67%, rgba(21, 58, 91, 0.8) 100%);
+}
+
+.article-contain {
+    width: 55%;
+    display: flex;
+    align-items: flex-end;
+    transition: 0.5 ease-in-out;
+}
+
+.article-contain .article {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    display: inline;
+}
+
+.title {
+    position: relative;
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+    transition: 0.8s ease-in-out;
+    font-weight: 500;
+    z-index: 3;
+}
+
+.heading {
+    color: #ffffff;
+    font-size: 70px;
+    font-weight: 800;
+    line-height: 80px;
+    letter-spacing: 1px;
+    transition: 0.8s ease-in-out;
+    z-index: 1;
+    position: relative;
+    justify-content: center;
+}
+
+.description {
+    margin-top: 30px;
+    width: 90%;
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+    transition: 0.8s ease-in-out;
+    position: relative;
+    z-index: 1;
+}
+.learnbut-wrap{
+    position: absolute;
+}
+
+.learnbut {
+    margin-top: 40px;
+}
+
+.learnbut button {
+    display: flex;
+    vertical-align: middle;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    padding: 0.3rem 1.33rem;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 75px;
+    font-weight: bold;
+    font-size: clamp(0.938rem, 1.152rem + -0.952vw, 0.688rem);
+    line-height: 1;
+    letter-spacing: 0;
+    text-decoration: none;
+    cursor: pointer;
+    user-select: none;
+    border: 0;
+    width: fit-content;
+    gap: 10px;
+    transition: 0.5s ease-in-out;
+    backface-visibility: hidden;
+    outline: 1px solid transparent;
+    z-index: 1;
+}
+.back{
+
+    transform: translateX(-100%);
+    transition: transform 0.8s ease-in-out;
+   
+}
+.learn-more-clicked .back{
+    transform: translateX(0%);
+    transition: transform 0.8s ease-in-out;
+}
+.back .learnbut button{
+    display: flex;
+    vertical-align: middle;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    padding: 0.5rem 1.33rem;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 75px;
+    font-weight: bold;
+    font-size: clamp(0.938rem, 1.152rem + -0.952vw, 0.688rem);
+    line-height: 1;
+    letter-spacing: 0;
+    text-decoration: none;
+    cursor: pointer;
+    user-select: none;
+    border: 0;
+    width: fit-content;
+    gap: 10px;
+    transition: 0.5s ease-in-out;
+    backface-visibility: hidden;
+    outline: 1px solid white;
+    z-index: 1;
+    background-color: transparent;
+
+}
+.back .learnbut button svg{
+    color: #fff;
+}
+.back .learnbut button span{
+    color: #fff;
+}
+.learnbut button:hover {
+    transform: scale(1.03);
+    color: #153a5b;
+}
+
+.learnbut button span {
+    color: #153a5b;
+}
+.sliderDiv {
+    width: 61%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: none;
+    right: 0;
+    top: 0;
+}
+
+.slide {
+    background-color: transparent;
+    margin-right: -79%;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+    z-index: 0;
+    overflow: none;
+    display: flex;
+    gap: 2em;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    transition: margin-right 0.5s ease-in-out;
+}
+
+.learn-more-clicked .article-contain {
+    transition: 0.5 ease-in-out;
+}
+
+.learn-more-clicked .slide {
+    margin-right: 0%;
+    transition: 0.5 ease-in-out;
+}
+
+.page-wraper-car {
+    position: relative;
+    width:350px;
+    height: 450px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+/* .page-wraper-car::after {
+    content: '';
+    position: relative;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, rgba(21, 58, 91, 0) 0%, #09213A 74.93%, #071D35 100%);
+    transition: 0.5s ease-in-out;
+
+} */
+
+.slide:hover {
+    transform: translateX(-10%);
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.slide h1 {
+    color: whitesmoke;
+}
+
+.card-page {
+    background-color: transparent;
+    /* height: 500px;
+    width: 500px; */
+    border-radius: 10px;
+
+}
+
+.container-card {
+    width: 100%;
+    height: 100%;
+    background-image: url('../assets/images/cardImg1.png');
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-end;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 5% 10%;
+    background-size: cover;
+    overflow: hidden;
+    transition:0.8s ease-in-out;
+
+}
+
+.container-card h3 {
+    transition: 0.5s ease-in-out;
+    font-size: 1.33333rem;
+    line-height: 2.13333rem;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.card-des {
+    transition: all 0.5s ease-in-out 0s;
+    letter-spacing: 0.02em;
+    font-size: 1.06667rem;
+    line-height: 1.6rem;
+    color: rgb(255, 255, 255);
+    z-index: 1;
+}
+
+.cardbut {
+    display: flex;
+}
+
+.cardbut button {
+    margin-top: 20px;
+    margin-bottom: -59px;
+    display: flex;
+    vertical-align: middle;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    padding: 0.2rem .5rem;
+    border-style: solid;
+    border-radius: 75px;
+    font-weight: bold;
+    font-size: clamp(0.938rem, 1.152rem + -0.952vw, 0.688rem);
+    line-height: 1;
+    letter-spacing: 0;
+    text-decoration: none;
+    cursor: pointer;
+    user-select: none;
+    border: 0;
+    width: fit-content;
+    gap: 5px;
+    transition: 0.5s ease-in-out;
+    backface-visibility: hidden;
+    outline: 1px solid transparent;
+    z-index: 2;
+    overflow: hidden;
+}
+
+.cardbut button:hover {
+    transform: scale(1.03);
+    color: #153a5b;
+}
+
+.card-page:hover .cardbut button {
+    margin-bottom: 0px;
+    transition: all 0.8s ease-in-out 0s;
+}
+.card-page:hover .container-card{
+    transform: scaleX(1.03);
+}
+
+.card-page:hover .cardbut {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+/* .card-article::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background: linear-gradient(rgba(21, 58, 91, 0) 0%, rgba(21, 58, 91, 0) 33.33%, rgba(21, 58, 91, 0.1) 66.67%, rgba(21, 58, 91, 0.8) 100%);
+    border-radius: 0.66667rem;
+} */
+.article-inner{
+    transform: translateX(0%);
+    transition:  transform 0.8s ease-in-out ;
+}
+.learn-more-clicked .article-inner {
+    transform: translateX(-150%);
+    transition: transform 0.8s ease-in-out 0s;
+}
+
+.learn-more-clicked .sliderDiv {
+    transform: translateX(0%);
+    transition: all 0.8s ease-in-out 0s;
+}
+.learn-more-clicked .card-page{
+    display: block;
+}
+.learn-more-clicked .slide:hover {
+    margin-right: 0%;
+}
+
+@media screen and (max-width:1500px) {
+    
+    .learn-more-clicked .sliderDiv {
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+    }
+    .title {
+        font-size: 18px;
+    }
+
+    .heading {
+        font-size: 56px;
+        line-height: 75px;
+    }
+
+    .description {
+        font-size: 18px;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width:1440px) {
+    /* .learn-more-clicked .container-page{
+        height: 100%;
+        width: 103%;
+        background-image: none; 
+        background-color: #071D35;
+    } */
+    .sliderDiv{
+        margin-right: -150%;
+    }
+ 
+}
+@media screen and (max-width:1200px) {
+    .title {
+        font-size: 17px;
+    }
+
+    .heading {
+        font-size: 50px;
+        line-height: 60px;
+
+    }
+
+    .description {
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width:780px) {
+    .title {
+        font-size: 15px;
+    }
+
+    .heading {
+        font-size: 40px;
+        line-height: 50px;
+
+    }
+
+    .description {
+        font-size: 15px;
+    }
+}

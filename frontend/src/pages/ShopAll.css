@@ -1,0 +1,98 @@
+.shop-sec{
+    margin-top: 80px;
+    flex-direction: column;
+    padding-left: clamp(1.6rem, calc(1.6rem + (56) * ((100vw - 428px) / (1920 - 428))), 5.33333rem);
+    padding-right: clamp(1.6rem, calc(1.6rem + (56) * ((100vw - 428px) / (1920 - 428))), 5.33333rem);
+    display: flex;
+}
+.shop-lay-sec-head{
+    margin-bottom: 2.66667rem;
+
+}
+.shop-lay-sec-head h1{
+    font-size: 60px;
+    color: #153a5b;
+    font-weight: 700;
+    letter-spacing: -0.00133rem;
+    margin-bottom: 0;
+    margin-top: 0;
+    margin: 0;
+    padding: 0; 
+
+}
+.shop-car-cont{
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    row-gap: 0;
+    column-gap: 2.66667rem;
+    display: grid;
+
+}
+.shop-card{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+}
+.shop-card a{
+    font-size: 1.06667rem;
+    line-height: clamp(1.5rem, 1.385rem + 0.513vw, 2rem);
+    letter-spacing: 0.00133rem;
+    color: #153a5b;
+    background: transparent;
+    text-decoration: none;
+    overflow: hidden;
+    border-radius: 0.66667rem;
+    text-align: center;
+}
+.shop-img{
+    border-radius: 0.66667rem;
+    overflow: hidden;
+}
+.shop-img img{
+    max-width: 100%;
+    font-style: italic;
+    border-style: none;
+    vertical-align: middle;
+    transition: 0.8s ease-in-out;
+}
+.shop-img img:hover{
+    transform: scale(1.01);
+}
+.shop-card a h3{
+    font-size: clamp(1.5rem, 1.018rem + 0.714vw, 1.875rem);
+    line-height: clamp(2rem, 1.357rem + 0.952vw, 1rem);
+    font-weight: 700;
+    color: #153a5b;
+    margin-top: 1.33333rem;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 0.73333rem;
+    letter-spacing: .25px;
+    margin-block-start: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.shop-card a span{
+    text-decoration: underline;
+    font-size: 1.06667rem;
+    letter-spacing: 0.00133rem;
+    color: #153a5b;
+    text-align: center;
+}
+@media screen and (max-width:1300px) {
+    .shop-car-cont{
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 1em;        
+    } 
+}
+@media screen and (max-width:780px) {
+    .shop-car-cont{
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 2em;
+        
+    }
+    .shop-lay-sec-head h1{
+        font-size: 45px;
+    }
+}

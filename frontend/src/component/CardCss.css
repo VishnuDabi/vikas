@@ -1,0 +1,137 @@
+#Magazine {
+  margin-top: 100px;
+  margin-bottom: 10px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.car {
+  overflow: visible;
+  box-sizing: border-box;
+
+}
+
+.card {
+  border-radius: 10px;
+  width: 95%;
+  overflow: none;
+  background-color: #f7f7f7;
+  margin: 0px 10px;
+  margin-bottom: 20px;
+
+
+}
+
+.proMedia {
+  border-radius: 10px;
+  align-self: flex-start;
+  width: 100%;
+}
+
+.car .shop-lay-sec-head {
+  padding-left: 50px;
+  padding-bottom: 10px;
+}
+
+.proMedia img {
+  width: 100%;
+  cursor: pointer;
+}
+
+.shopCard-content {
+  display: inline;
+  justify-content: center;
+  align-items: center;
+  background-color: #f7f7f7;
+  margin: 10px;
+}
+
+.productTitle {
+  padding: 0px;
+  margin: 5px;
+}
+
+.productTitle h3 {
+  color: rgb(21, 58, 91);
+  line-height: 1.2;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  font-weight: 700;
+  font-size: clamp(1.06667rem, 1.06667rem + 0.268097vw - 1.14745px, 1.33333rem);
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.productTitle span {
+  color: rgb(21, 58, 91);
+  line-height: 1.7;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+.prodSwiper {
+  /* padding:0% 30%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+}
+
+.productList {
+  width: 64px;
+  flex: 0 0 64px;
+  padding: 0px;
+}
+
+.productList button {
+  width: 100%;
+  padding: 0px;
+  border-color: transparent;
+  background-color: transparent;
+  transition: all .4s ease-in-out 0s;
+}
+
+.productList button:focus {
+  border: 1px solid grey;
+  border-radius: 7px;
+}
+
+.productList img {
+  background-color: transparent;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+element.style {
+  transition: none 0s ease 0s;
+  overflow: unset;
+  transform: translate3d(-740px, 0px, 0px);
+}
+
+
+.prodPrice {
+  margin: 15px;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.car .shop-lay-sec-head {
+  margin-left: 30px;
+}
+
+.carousel {
+  padding: 0% 4%;
+  overflow: none;
+}
+
+
+@media screen and (max-width:1500px) {
+  .car .shop-lay-sec-head {
+    margin-left: 0px;
+  }
+}

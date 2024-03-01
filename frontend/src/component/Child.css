@@ -1,0 +1,73 @@
+.child-sec {
+    display: none;
+    width: 96%;
+    margin-left: -3.58%;
+    position: absolute;
+    z-index: 9;
+    background-color: white;
+    padding: 0% 2%;
+    padding-bottom: 1%;
+    overflow: hidden;
+}
+
+.child-row {
+    padding-top: 2%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.buttons {
+    padding-top: 0%;
+}
+
+.buttons .learnbut {
+    margin-top: 10px;
+}
+
+.buttons .learnbut button {
+    background-color: #153a5b;
+}
+
+.buttons .learnbut button span {
+    color: white;
+}
+
+.child-cont {
+    width: 15%;
+}
+
+.child-con-Upp {
+    margin-top: 7%;
+}
+
+.child-con-Upp a {
+    text-decoration: none;
+    color: #153a5b;
+}
+
+.child-con-low {
+    margin-top: 25%;
+}
+
+.child-con-low a {
+    text-decoration: none;
+    color: #153a5b;
+}
+
+.child-prod {
+    width: 80%;
+    height: 100%;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.child-prod .container {
+    width: 90%;
+    gap: 2em;
+    cursor: pointer;
+}

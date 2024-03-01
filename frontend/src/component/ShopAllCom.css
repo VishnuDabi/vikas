@@ -1,0 +1,82 @@
+.shopAll-com {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: start;
+}
+
+.shopAll-com-inn {
+    width: 100%;
+    grid-template-columns: repeat(3, minmax(0px, 410px));
+    grid-template-rows: 1fr;
+    gap: 0.66667rem;
+    display: grid;
+}
+
+.shopAll-com-card {
+    max-height: 466px;
+    flex-direction: column;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    align-items: center;
+    height: 100%;
+    max-width: 410px;
+    background: rgb(228, 218, 209);
+    border-radius: clamp(0.5rem, 0.13rem + 1.852vw, 0.625rem);
+    display: flex;
+    position: relative;
+}
+.shopAll-com-card::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 0px 0px 10px 10px;
+    background: linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.5) 100%);
+    z-index: 1;
+}
+
+.shopAll-com-card-inn {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-end;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 5% 10%;
+    background-size: cover;
+    overflow: hidden;   
+    width: 100%;
+    height: 100%;
+}
+.shopAll-com-card-cont{
+    margin-top:130% ;
+    padding: 2% 2%;
+    text-align: center;
+    align-items: center;
+    bottom: 0px;
+    left: 50%;
+    /* transform: translateX(-50%); */
+    max-width: 100%;
+    width: 100%;
+    z-index: 2;
+}
+.shopAll-com-card-cont h4{
+    margin-bottom: 0px;
+    color: rgb(255, 255, 255);
+    margin-top: 0px;
+    font-size: 1.06667rem;
+    line-height: 1.5;
+    letter-spacing: .25px;
+}
+.shopAll-com-card-cont span{
+    color: rgb(255, 255, 255);
+    font-size: clamp(0.875rem, 0.846rem + 0.128vw, 1rem);
+    line-height: clamp(1.25rem, 1.192rem + 0.256vw, 1.5rem);
+    margin-top: 8px;
+    margin-bottom: 0px;
+}

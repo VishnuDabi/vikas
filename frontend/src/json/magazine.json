@@ -1,0 +1,37 @@
+[
+    {
+        "id":"1",
+        "img":"magazineImg1.png",
+        "title":"I’m a nutritionist, and I only use filtered water. Here’s why."
+    },
+    {
+        "id":"2",
+        "img":"magazineImg2.png",
+        "title":"This is how much plastic you're eating per week"
+    },
+    {
+        "id":"3",
+        "img":"magazineImg3.png",
+        "title":"How clean is New York Tap Water?"
+    },
+    {
+        "id":"4",
+        "img":"magazineImg4.png",
+        "title":"How to remove PFAS, PFOA, PFOS from tap water"
+    },
+    {
+        "id":"5",
+        "img":"magazineImg5.png",
+        "title":"How clean is London tap water?"
+    },
+    {
+        "id":"6",
+        "img":"magazineImg6.png",
+        "title":"How to clean your reusable water bottle (if you don’t have a self-cleaning one)"
+    },
+    {
+        "id":"7",
+        "img":"magazineImg7.png",
+        "title":"What is Japandi Interior Design?"
+    }
+]

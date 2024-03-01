@@ -1,0 +1,433 @@
+.foot-sec {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f5f9fc;
+    overflow: hidden;
+    position: relative;
+    padding: clamp(3.75rem, 0rem + 4.167vw, 5rem) clamp(2.5rem, -5rem + 8.333vw, 5rem);
+    margin-top: 100px;
+}
+
+.content-wrap {
+    width: 70%;
+}
+
+.sign-nav {
+    width: 100%;
+    display: flex;
+    margin-bottom: 2rem;
+    justify-content: space-between;
+}
+
+.news-social {
+    width: 40%;
+}
+
+.new-so-det {
+    margin-bottom: 1.46667rem;
+}
+
+.new-so-det h3 {
+    margin-top: 0;
+    font-size: 35px;
+    line-height: clamp(2rem, calc(2rem + (10) * ((100vw - 428px) / (1920 - 428))), 2.66667rem);
+    color: #153a5b;
+    margin: 0;
+    padding: 0;
+    font-weight: 700;
+    margin-bottom: 0.73333rem;
+    letter-spacing: .25px;
+}
+
+.new-so-det p {
+    font-size: 20px;
+    line-height: clamp(1.46667rem, calc(1.46667rem + (8) * ((100vw - 428px) / (1920 - 428))), 2rem);
+    color: #153a5b;
+    margin-bottom: 2rem;
+    margin: 0;
+    padding: 0;
+}
+
+.new-so-det form {
+    width: 90%;
+    position: relative;
+    display: block;
+    margin-top: 02em;
+}
+
+.input-cont {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    align-items: flex-start;
+}
+
+.input-inn {
+
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    width: 100%;
+}
+
+.input-wrap {
+    position: relative;
+    cursor: text;
+    display: inline-flex;
+    box-sizing: border-box;
+    align-items: center;
+    background-color: #ffffff;
+    border: 1px solid black;
+    border-color: transparent;
+    border-radius: 50px;
+    box-shadow: none;
+    transition-duration: 100ms;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0ms;
+    transition-property: border-color;
+}
+
+.input-wrap input {
+    color: #5a5e60;
+    font-family: Value;
+    padding: 4% 5%;
+    border: 0;
+    border-radius: 50px;
+    box-sizing: border-box;
+    background-color: transparent;
+    background: none;
+    margin: 0;
+    display: block;
+    min-width: 0;
+    width: 100%;
+    font-size: clamp(0.75rem, 0.009rem + 3.704vw, 1rem);
+    line-height: normal;
+    text-align: left;
+    animation-duration: 10ms;
+    animation-name: animation-1nvhbm6;
+}
+
+.new-so-det form button {
+    width: clamp(1.375rem rem, -0.125rem + 1.667vw, 1.875rem);
+    right: 1rem;
+    display: block;
+    position: absolute;
+    border: none;
+    margin: 0;
+    cursor: pointer;
+    display: inline-block;
+    padding: 0;
+    text-align: center;
+    text-decoration: none;
+    background-color: transparent;
+    overflow: visible;
+    border-radius: 100%;
+}
+
+.new-so-det form button svg {
+    width: 32;
+    height: 32;
+    fill: rgb(235, 243, 249);
+
+}
+
+.foot-ul {
+    justify-content: flex-start;
+    margin-bottom: 0;
+    list-style-type: none;
+    margin-top: 35px;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    list-style-position: outside;
+
+}
+
+.foot-ul li {
+    display: list-item;
+    list-style-type: none;
+    list-style-position: outside;
+}
+
+.foot-ul li a {
+    width: clamp(2.25rem, 0rem rem + 2.5vw, 3rem);
+    display: inline-block;
+    color: #153a5b;
+    background: transparent;
+    text-decoration: none;
+}
+
+.sign-nav nav {
+    display: flex;
+    gap: 1rem;
+    padding-bottom: 0;
+}
+
+.sign-nav nav ul {
+    width: clamp(10.25rem, -7.75rem + 20vw, 16.25rem);
+    min-width: 10.93333rem;
+    list-style: none;
+    margin-left: 0;
+    padding-inline-start: 0;
+    margin: 0 0 0 1.15rem;
+    padding: 0;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    display: block;
+}
+
+.sign-nav nav ul li {
+    display: list-item;
+    list-style: none;
+}
+
+.sign-nav nav ul li a {
+    display: inline-block;
+    padding-bottom: clamp(1.063rem, -0.234rem + 6.481vw, 1.5rem);
+    font-weight: 500;
+    color: #153a5b;
+    background: transparent;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.sign-nav nav ul li a:hover {
+    color: #757575;
+    outline-width: 0;
+}
+
+.loca-foot {
+    margin-right: 2rem;
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+}
+
+.loc-foo-sec {
+    margin-right: 1.6rem;
+    display: block;
+}
+
+.loc-foo-sec button {
+    padding: clamp(0.438rem, -0.125rem + 0.625vw, 0.625rem) clamp(0.938rem, 0rem + 1.042vw, 1.25rem);
+    font-size: clamp(0.75rem, 0.188rem + 0.625vw, 0.938rem);
+    margin-top: auto;
+    margin-bottom: 0;
+    font-family: Value;
+    display: flex;
+    align-items: center;
+    padding: 0.66667rem 1.33333rem;
+    padding-left: 1.06667rem;
+    padding-right: 1.06667rem;
+    height: 3.33333rem;
+    border-radius: 50px;
+    background: #ffffff;
+    width: 100%;
+    font-size: 1.06667rem;
+    margin-bottom: clamp(4.375rem, 2.523rem + 9.259vw, 5rem);
+    color: #153a5b;
+    font-weight: 700;
+    border: none;
+    margin: 0;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+
+.loc-foo-sec button span {
+    margin-right: 0.46667rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 1.33333rem;
+    font-size: clamp(0.75rem, 0.188rem + 0.625vw, 0.938rem);
+    color: #153a5b;
+    font-weight: 700;
+    font-family: Value;
+    gap: 8px;
+}
+
+.loc-foo-sec button span img {
+    width: 20px;
+    height: 20px;
+}
+
+.loca-foot nav ul {
+    font-size: 1.06667rem;
+    list-style: none;
+    margin-left: 0;
+    display: flex;
+    justify-content: center;
+    gap: clamp(1.125rem, 0.014rem + 5.556vw, 1.5rem);
+    line-height: 1.6rem;
+    margin: 0 0 0 1.15rem;
+    padding: 0;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.loca-foot nav ul li {
+    display: list-item;
+    font-size: 1.06667rem;
+    list-style: none;
+    line-height: 1.6rem;
+}
+
+.loca-foot nav ul li a {
+    color: #153a5b;
+    background: transparent;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 1.06667rem;
+    list-style: none;
+    line-height: 1.6rem;
+}
+
+.loca-foot nav ul li a:hover {
+    color: #757575;
+
+}
+
+.foot-ani {
+    max-width: 32%;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.foot-ani img {
+    width: 100%;
+    margin: auto;
+    font-style: italic;
+    border-style: none;
+    vertical-align: middle;
+}
+
+@media screen and (max-width:1180px) {
+    .news-social {
+        margin-right: 0rem;
+    }
+
+    s .loca-foot nav ul li a {
+        font-size: 0.8rem;
+    }
+
+    .sign-nav {
+        justify-content: space-between;
+    }
+
+    .content-wrap {
+        width: 100%;
+    }
+
+    .new-so-det h3 {
+        font-size: 28px;
+    }
+
+    .new-so-det p {
+        font-size: 18px;
+    }
+}
+
+@media screen and ((max-width:1180px) and (min-width:779px)) {
+    .foot-ani img {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width:780px) {
+    .foot-sec {
+        margin-top: 0px;
+        display: inline-block;
+        padding: 1% 6%;
+    }
+
+    .foot-ani {
+        position: relative;
+        max-width: 100%;
+    }
+
+    .sign-nav {
+        margin-top: 66px;
+        display: inline-block;
+        align-items: center;
+    }
+
+    .news-social {
+        width: 100%;
+    }
+
+    .new-so-det form {
+        width: 100%;
+    }
+
+    .input-wrap input {
+        padding: 3% 5%;
+    }
+
+    .foot-ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .foot-ul svg {
+        font-size: 23px;
+    }
+
+    .sign-nav nav {
+        margin-top: 40px;
+        display: inline-block;
+    }
+
+    .sign-nav nav ul {
+        width: 100%;
+        margin-block-start: 0em;
+        margin-block-end: 0em;
+        font-size: 19px;
+    }
+
+    .loca-foot {
+        margin-right: 0px;
+        width: 100%;
+        display: inline-block;
+    }
+
+    .loc-foo-sec {
+        margin-right: 0px;
+        width: 100%;
+        margin-bottom: 05rem;
+    }
+}
+
+@media screen and (max-width:525px) {
+    .new-so-det h3 {
+        font-size: 24px;
+    }
+
+    .sign-nav nav ul {
+        font-size: 16px;
+    }
+
+    .new-so-det p {
+        font-size: 16px;
+    }
+
+    .input-wrap input {
+        padding: 5% 5%;
+    }
+
+    .foot-ul svg {
+        font-size: 20px;
+    }
+}

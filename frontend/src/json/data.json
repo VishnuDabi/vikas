@@ -1,0 +1,203 @@
+[
+  {
+    "id": "1",
+    "prodName": "LARQ Bottle PureVis™",
+    "subImg": [
+      {
+        "id": " 11",
+        "img": "bottle11.png",
+        "bgColor": "#f7f7f7",
+        "prodCol": "Black / Onyx",
+        "price": "89",  
+        "color":"#101010"
+      },
+      {
+        "id": "12",
+        "img": "bottle12.png",
+        "bgColor": "#f8f8f6",
+        "prodCol": "White / Dune",
+        "price": "120",  
+        "color":"#c6c3b0"  
+      },
+      {
+        "id": "13",
+        "img": "bottle13.png",
+        "bgColor": "#f6f8f8",
+        "prodCol": "White / Pebble",
+        "price": "200",  
+        "color":"#76848c"
+      },
+      {
+        "id": "14",
+        "img": "bottle14.png",
+        "bgColor": "#f8faf5",
+        "prodCol": "Black / Pine",
+        "price": "79",  
+        "color":"#546235"
+      },
+      {
+        "id": "15",
+        "img": "bottle15.png",
+        "bgColor": "#fef1f0",
+        "prodCol": "White / Coral",
+        "price": "99",  
+        "color":"#dc5d56"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "prodName": "Jolly Good Swing",
+    "subImg": [
+      {
+        "id": "21",
+        "img": "bottle21.png",
+        "bgColor": "#f4f8fa",
+        "prodCol": "23 oz",
+        "price": "99"
+      },
+      {
+        "id": "22",
+        "img": "bottle22.png",
+        "bgColor": "#f7f7f7",
+        "prodCol": "34",
+        "price": "119"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "prodName": "Pure Vibes",
+    "subImg": [
+      {
+        "id": "31",
+        "img": "bottle31.png",
+        "bgColor": "#f7f8f8",
+        "prodCol": "Obsidian Black",
+        "price": "109",
+        "color":"#191e23"
+        
+      },
+      {
+        "id": "32",
+        "img": "bottle32.png",
+        "bgColor": "#f5f9f9",
+        "prodCol": "Seaside Mint",
+        "price": "109",
+        "color":"#85a8af"
+      },
+      {
+        "id": "33",
+        "img": "bottle33.png",
+        "bgColor": "#f8f8f7",
+        "prodCol": "Granite White",
+        "price": "109",
+        "color":"#b3b3aa"
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "prodName": "LARQ Pitcher PureVis™",
+    "subImg": [
+      {
+        "id": "41",
+        "img": "bottle41.png",
+        "bgColor": "#f5f6fa",
+        "prodCol": "Monaco Blue",
+        "price": "139",
+        "color":"#314664"
+      },
+      {
+        "id": "42",
+        "img": "bottle42.png",
+        "bgColor": "#f7f7f7",
+        "prodCol": "Pure White",
+        "price": "139",
+        "color":"#e8e8e8"
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "prodName": "LARQ Bottle Swig Top",
+    "subImg": [
+      {
+        "id": "51",
+        "img": "bottle51.png",
+        "bgColor": "#f7f8f8",
+        "prodCol": "Obsidian Black",
+        "price": "39.95",
+        "color":"#1a1e21"
+      },
+      {
+        "id": "52",
+        "img": "bottle52.png",
+        "bgColor": "#f8f8f7",
+        "prodCol": "Granite White",
+        "price": "39.95",
+        "color":"#ccccc3"
+      },
+      {
+        "id": "53",
+        "img": "bottle53.png",
+        "bgColor": "#f5f9f9",
+        "prodCol": "Eucalyptus Green",
+        "price": "39.95",
+        "color":"#2c4541"
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "prodName": "LARQ Bottle Filtered",
+    "subImg": [
+      {
+        "id": "61",
+        "img": "bottle61.png",
+        "bgColor": "#f7f8f8",
+        "prodCol": "Obsidian Black",
+        "price": "49.95",
+        "color":"#181d23"
+      },
+      {
+        "id": "52",
+        "img": "bottle62.png",
+        "bgColor": "#f8f8f7",
+        "prodCol": "Granite White",
+        "price": "49.95",
+        "color":"#b1b1a8"
+      }
+    ]
+  },
+  {
+    "id": "7",
+    "prodName": "LARQ Bottle Flip Top",
+    "subImg": [
+      {
+        "id": "71",
+        "img": "bottle71.png",
+        "bgColor": "#f7f8f8",
+        "prodCol": "Obsidian Black",
+        "price": "39.95",
+        "color":"#161b21"
+      },
+      {
+        "id": "72",
+        "img": "bottle72.png",
+        "bgColor": "#f5f9f9",
+        "prodCol": "Seaside Mint",
+        "price": "39.95",
+        "color":"#91b4bb"
+      },
+      {
+        "id": "73",
+        "img": "bottle73.png",
+        "bgColor": "#f5f9f9",
+        "prodCol": "Granite White",
+        "price": "39.95",
+        "color":"#c6c6bd"
+      }
+    ]
+  }
+]
